@@ -6,7 +6,7 @@ class Car
   end
 
   def to_s
-    "#{@year} #{@make} #{@model} #{@color}"
+    "#{@year} #{@color} #{@make} #{@model}"
   end
 end
 
