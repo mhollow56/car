@@ -16,3 +16,11 @@ UPDATE 7/26/2019
   3. This needs refactoring badly. The main input method can be played with. If you want a good challenge, try refactoring this to reduce the lines of code. (Hint: any line or block of code I call more than once that is not already a single method could be refactored)
 
   4. If this genuinely does not make sense to you, please reach out to me. Reading and understanding code is very important. If this is over your head, this is a sign you need something explained to you, and that is why I am here.
+
+UPDATE 7/30/2019
+    
+    1. significantly refactored the modules.
+    
+    2. added a price to cars.
+    
+    3. added a basic search by year with user input.

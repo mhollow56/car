@@ -1,11 +1,11 @@
-require_relative 'Randomizer'
+require_relative 'randomizer'
 require_relative 'car'
 
-class Car_Database
+class CarDatabase
   attr_accessor :cars
 
   def initialize
-    @cars = Array.new
+    @cars = []
   end
 
   def add_car(car)
@@ -18,6 +18,8 @@ class Car_Database
       @cars.push(Randomizer.random_car)
     end
   end
-end
 
-# add a class to manage the grouping and storing of your data.
+  def search_by_year(min_year, max_year)
+    @cars.select { |car| car.year >= min_year && car.year <= max_year }
+  end
+end
